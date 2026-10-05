@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p {
+    font-size: 15px;
+}
+
+span {
+    font-size: 15px;
+}
+.cv-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+}
+.sidebar {
+    padding: 20px;
+    background-color: #123B5D;
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.sidebar hr {
+    border: none;
+    border-top: 2px solid #3F6685;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 180px;
+    border: 3px solid white;
+}
+.contact-section,
+.skills-section {
+    margin-bottom: 20px;
+}
+
+.contact-section h3,
+.skills-section > h3 {
+    font-weight: 200;
+    color: #A9D8F0;
+    font-size: 20px;
+}
+
+.contact-list {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    font-style: normal;
+}
+
+.contact-list p {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.contact-list i {
+    padding: 3px;
+}
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.skill-title {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.skill-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill-tags p {
+    padding: 4px 7px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border: 1px solid white;
+    font-weight: 700;
+}
+.main-content {
+    padding: 40px 10px 0px 50px;
+    color: black;
+    font-weight: 400;
+}
+
+.main-content hr {
+    border: none;
+    border-top: 2px solid rgb(232, 232, 232);
+}
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.section-heading {
+    display: flex;
+    gap: 10px;
+    align-items: top;
+}
+
+.section-heading p {
+    color: #00aaff;
+    font-weight: bolder;
+}
+
+.section-heading h3 {
+    color: #1e3241;
+}
+
+.resume-card {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 179, 179);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(207, 207, 207, 0.2);
+}
+
+.resume-card h3 {
+    color: rgb(0, 0, 47);
+}
+
+.resume-card h4 {
+    color: #3F6685;
+}
+
+.resume-card ul {
+    margin-left: 20px;
+}
+.resume-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
